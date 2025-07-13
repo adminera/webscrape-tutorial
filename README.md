@@ -25,7 +25,7 @@ In the examples, we will be scraping a demo site, https://quotes.toscrape.com/, 
 # Features
 
 - Exports data as CSV for reviewing (headers can be adjusted)
-- Automates login to scrape content behind login wall
+- Automates login to scrape content behind login wall using selenium
 - Uses Exceptions to handle errors
 
 ---
@@ -35,3 +35,7 @@ In the examples, we will be scraping a demo site, https://quotes.toscrape.com/, 
 `webscrape-tutorial` requires multiple packages to be installed using PIP
 
 pip install beautifulsoup4
+
+# Post-Installation
+
+# Usage
