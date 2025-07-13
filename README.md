@@ -61,6 +61,14 @@ ChromeDriver Windows
 
 https://developer.chrome.com/docs/chromedriver/downloads
 
-# Post-Installation
-
 # Usage
+
+To run the basic web scraper:
+```sh
+python tagscrape.py
+```
+
+To run the login bypass scraper:
+```sh
+python loginscrape.py
+```
