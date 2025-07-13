@@ -34,7 +34,32 @@ In the examples, we will be scraping a demo site, https://quotes.toscrape.com/, 
 
 `webscrape-tutorial` requires multiple packages to be installed using PIP
 
+```sh
 pip install beautifulsoup4
+```
+```sh
+pip install requests
+```
+```sh
+pip install selenium
+```
+
+`webscrape-tutorial` also requires a Chrome Web Driver to be installed on your system
+
+Chrome Driver Linux:
+
+```sh
+sudo apt update
+sudo apt install chromium-chromedriver
+```
+ChromeDriver Mac
+
+```sh
+brew install chromedriver
+```
+ChromeDriver Windows
+
+https://developer.chrome.com/docs/chromedriver/downloads
 
 # Post-Installation
 
