@@ -25,6 +25,7 @@ In the examples, we will be scraping a demo site, https://quotes.toscrape.com/, 
 
 - Exports data as CSV for reviewing (headers can be adjusted)
 - Automates login to scrape content behind login wall using selenium
+- Uses Pagination to cycle through pages and grab content
 - Uses Exceptions to handle errors
 
 ---
