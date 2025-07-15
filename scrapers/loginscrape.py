@@ -23,7 +23,7 @@ username = page_to_scrape.find_element(By.ID, "username")
 password = page_to_scrape.find_element(By.ID, "password")
 
 username.send_keys("admin")
-my_pass = getpass.getpass
+my_pass = getpass.getpass()
 password.send_keys(my_pass)
 
 page_to_scrape.find_element(By.CSS_SELECTOR, 'input.btn-primary').click()
